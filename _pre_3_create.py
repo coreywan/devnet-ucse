@@ -19,5 +19,7 @@ def main():
     # Commit changes back to UCS
     handle.commit()
 
+    handle.logout()
+
 if __name__ == "__main__":
     main()

@@ -29,5 +29,7 @@ def main():
     blade = handle.query_dn(blades[0].dn)
     print(blade)
 
+    handle.logout()
+
 if __name__ == "__main__":
     main()

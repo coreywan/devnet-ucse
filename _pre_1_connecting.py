@@ -16,5 +16,8 @@ def main():
 
     ## Print Cookie
     print(handle.cookie)
+
+    handle.logout()
+
 if __name__ == "__main__":
     main()
