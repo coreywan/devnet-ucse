@@ -24,3 +24,14 @@
     pip install requests
     pip install xml2dict
     ```
+
+4. Clone this git repo to windows jumphost:
+    ```
+    git clone https://github.com/coreywan/devnet-ucse.git
+    cd ./devnet-ucse.git
+    ```
+
+5. Run the setup_env.py to setup some pre-req's on the UCS Cluster.
+    ```
+    ./setup_env.py
+    ```
