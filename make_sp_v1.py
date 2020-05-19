@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+## Nick's Original Script
+
+## Downside interacts directly with the XML API
+
 """
 Author: Nick Russo
 Purpose: Demonstrate Cisco UCS Manager for creating a service profile

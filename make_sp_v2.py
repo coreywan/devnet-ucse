@@ -1,3 +1,8 @@
+
+## Converts Nick's script to Cisco SDK
+
+## Downside - It doesn't actually associate the template with a server
+
 from ucsmsdk.ucshandle import UcsHandle
 from ucsmsdk.ucsmethodfactory import ls_instantiate_n_template
 from ucsmsdk.ucsbasetype import DnSet, Dn
