@@ -2,7 +2,7 @@
 import-module Cisco.UCSManager
 
 $num_sp = 3
-$blade_model = 'UCSB-EX-M4-1'
+$blade_model = 'UCSB-B200-M4'
 
 ## Create Credential Object
 $password = ConvertTo-SecureString "ucspe" -AsPlainText -Force
