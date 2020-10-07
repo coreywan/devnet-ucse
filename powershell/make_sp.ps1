@@ -32,3 +32,5 @@ foreach ($sp in $spCreated){
     associate-ucsServiceProfile -ServiceProfile $sp -Blade $blade -Force | out-null
     ++$counter
 }
+
+disconnect-ucs

@@ -26,3 +26,5 @@ foreach($lc in $lanclouds){
 
 ## Setup Service Profile Template
 Add-UcsServiceProfile -Type initial-template -Name globotemplate_powershell -IdentPoolName default
+
+disconnect-ucs
